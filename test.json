@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>THI</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="slide">
+			<a href=""><img src="img/thuanhoa.jpg" alt="" width="980" height="250"></a>
+		</div>
+		<nav>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Giới thiệu</a></li>
+					<li><a href="#">Thông báo</a></li>
+					<li><a href="#">Tuyển sinh</a></li>
+					<li><a href="#">Liên hệ</a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<input type="search" placeholder="Search...">
+				<button>Tìm kiếm</button>
+			</div>
+		</nav>
+		<article>
+			<h3>Hoạt động nhà trường</h3>
+			<div class="new_list">
+				<div class="news_item">
+					<h4>Trường THPT Thuận Hòa tổ chức ngày Nhà giáo Việt Nam 20/11/2024</h4>
+					<img src="img/anh1.jpg" alt="" width="253" height="174">
+					<div class="content">
+						Một hoạt động rất có ý nghĩa trong buổi họp mặt là vinh danh, khen thưởng những thầy cô giáo có nhiều đóng góp cho đơn vị trong công tác giảng dạy và giáo dục.
+					</div>
+				</div>
+				<div class="news_item">
+					<h4>Đại hội Đại biểu cha mẹ học sinh nhiệm kì 2024– 2025</h4>
+					<img src="img/anh2.jpg" alt="" width="253" height="174">
+					<div class="content">
+						Căn cứ Thông tư số 55/2011/TT-BGDĐT ngày 22 tháng 11 năm 2011 của Bộ trưởng Bộ GDĐT về việc ban hành Điều lệ Ban đại diện cha mẹ học sinh.
+					</div>
+				</div>
+				<div class="news_item" id="fix">
+					<h4>Trường THPT Thuận Hòa náo nức khai giảng năm học 2024 – 2025</h4>
+					<img src="img/anh3.jpg" alt="" width="253" height="174">
+					<div class="content">
+						Sáng ngày 5/9/2024, tập thể thầy và trò trường THPT Thuận Hòa tổ chức lễ khai giảng năm học 2024 – 2025 trong không khí hân hoan, náo nức trước thềm năm học mới
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+		</article>
+		<article>
+			<h3>Hoạt động học tập</h3>
+			<div class="new_list">
+				<div class="news_item">
+					<h4>Trường THPT Thuận Hòa tổ chức hội trại kỹ năng sống</h4>
+					<img src="img/anh4.jpg" alt="" width="253" height="174">
+					<div class="content">
+						Trường THPT Thuận Hòa phối hợp với Công ty Du lịch và Phát triển Giáo dục Thiên Phú tổ chức Hội trại Kỹ năng sống cho học sinh toàn trường vào ngày 10/4/2021.
+					</div>
+				</div>
+				<div class="news_item">
+					<h4>Học sinh đọc sách tại thư viện trường THPT Thuận Hòa</h4>
+					<img src="img/anh5.jpg" alt="" width="253" height="174">
+					<div class="content">
+						Lồng ghép trong hoạt động này, đoàn trường cũng đã triển khai cho đoàn viên học và thảo luận về quyển sách viết về Bác Hồ. Hoạt động này đã thu hút sự trao đổi hào hứng.
+					</div>
+				</div>
+				<div class="news_item" id="fix">
+					<h4>Họp mặt kỉ niệm 37 năm ngày Nhà giáo Việt Nam (20/11/2019)</h4>
+					<img src="img/anh6.jpg" alt="" width="253" height="174">
+					<div class="content">
+						Nhằm giáo dục truyền thống “Tôn sư, trọng đạo” và vinh danh những thầy cô giáo có nhiều đóng góp to lớn trong công tác chăm bồi thế hệ trẻ.
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+		</article>
+		<footer>
+			NGUYỄN LÊ HIẾU ĐOAN
+		</footer>
+	</div>
+</body>
+</html>

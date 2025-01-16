@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Math Quiz Generator</h1>
+        <div id="settings">
+            <label for="difficulty">Chọn độ khó: </label>
+            <select id="difficulty">
+                <option value="easy">Dễ</option>
+                <option value="medium">Trung bình</option>
+                <option value="hard">Khó</option>
+            </select>
+            <label for="num-questions">Số lượng câu hỏi: </label>
+            <input type="number" id="num-questions" min="0" max="20" value="10">
+            <label for="time-limit">Thời gian làm bài (phút): </label>
+            <input type="number" id="time-limit" min="1" value="10">
+            <button id="start-quiz">Bắt đầu</button>
+        </div>
+        <div id="quiz"></div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
